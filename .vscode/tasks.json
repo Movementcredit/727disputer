@@ -4,7 +4,7 @@
 		{
 			"type": "shell",
 			"label": "Run Flask app",
-			"command": "C:/Users/mIkey/AppData/Local/Microsoft/WindowsApps/python3.11.exe",
+			"command": "python3.9",
 			"args": [
 				"app.py"
 			],
