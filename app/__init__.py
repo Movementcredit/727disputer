@@ -34,3 +34,6 @@ def create_app(config_class=Config):
     app.register_blueprint(crm_bp)
 
     return app
+
+# Expose app at module level for Gunicorn
+app = create_app()
