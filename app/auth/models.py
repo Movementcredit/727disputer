@@ -11,3 +11,10 @@ class User(UserMixin, db.Model):
 
     def set_password(self, password):
         self.password_hash = generate_password_hash(password)
+
+# Flask-Login user_loader
+from app import login
+
+@login.user_loader
+def load_user(user_id):
+    return User.query.get(int(user_id))
