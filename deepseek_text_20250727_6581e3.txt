@@ -1,0 +1,38 @@
+movement-credit-ai/
+├── app/
+│   ├── __init__.py
+│   ├── auth/
+│   │   ├── routes.py
+│   │   ├── models.py
+│   │   └── utils.py
+│   ├── disputer/
+│   │   ├── generator.py
+│   │   ├── templates/
+│   │   │   ├── general_dispute.txt
+│   │   │   ├── late_payment.txt
+│   │   │   └── hard_inquiry.txt
+│   │   └── utils.py
+│   ├── funnel/
+│   │   ├── routes.py
+│   │   ├── templates/
+│   │   │   ├── index.html
+│   │   │   ├── signup.html
+│   │   │   └── dashboard.html
+│   │   └── utils.py
+│   ├── crm/
+│   │   ├── models.py
+│   │   ├── routes.py
+│   │   └── utils.py
+│   ├── static/
+│   │   ├── css/
+│   │   │   └── style.css
+│   │   ├── js/
+│   │   │   └── main.js
+│   │   └── images/
+│   └── templates/
+│       └── base.html
+├── config.py
+├── requirements.txt
+├── runtime.txt
+├── Procfile
+└── README.md

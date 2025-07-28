@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Dispute Generator</h2>
+<form method="post">
+    <input type="text" name="address" placeholder="Address" required><br>
+    <input type="text" name="city_state_zip" placeholder="City, State ZIP" required><br>
+    <input type="text" name="ssn_last4" placeholder="SSN Last 4" required><br>
+    <input type="text" name="dob" placeholder="Date of Birth" required><br>
+    <input type="text" name="phone" placeholder="Phone" required><br>
+    <button type="submit">Generate Letters</button>
+</form>
+{% endblock %}
